@@ -1,0 +1,19 @@
+.distri {
+    &:hover {
+        background-color: $bgHover;
+    }
+}
+.card-prod {
+    @extend .distri ;
+}
+
+.color-boton {
+    color: $fontColor;
+    &:hover {
+        background-color: $bgFooter;
+    }
+}
+
+.btn-primary {
+    @extend .color-boton
+}

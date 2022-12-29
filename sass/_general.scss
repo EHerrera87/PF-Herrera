@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    &::selection {
+        background-color: $bgFooter;
+    }
+}
+
+section {
+    font-family: $fontMont;
+    background-color: $mainColor;
+    padding: 30px;
+    color: $fontColor;
+    text-align: center;
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 6px;
+        padding-top: 20px;
+    }
+    h2 {
+        letter-spacing: 5px;
+        word-spacing: 3px;
+        padding-top: 10px;
+    }
+    p {
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        padding-top: 6px;
+    }
+    h5 {
+        letter-spacing: 2px;
+        padding-top: 10px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,21 @@
+footer {
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $bgFooter;
+    .trino {
+        font-size: 25px;
+        color: $fontColor;
+        letter-spacing: 4px;
+    }
+    .footer-text {
+        font-size: 15px;
+        color: $bg2;
+        text-decoration: none;
+    }
+    .subtitulo {
+        font-size: 20px;
+        color: $fontColor;
+        text-decoration: none;
+        letter-spacing: 4px;
+    }
+}

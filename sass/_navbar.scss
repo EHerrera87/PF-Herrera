@@ -1,0 +1,37 @@
+header {
+    background-color: $bgNavbar;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    nav {
+        a{
+            img {
+                border-style: double;
+                border-width: 8px;
+                border-radius: 160px;
+                width: 150px;
+            }
+        }
+        ul {
+            li {
+                text-transform: uppercase;
+                .tnavbar-color {
+                    color: $fontColor;
+                    letter-spacing: 2px;
+                }                
+            }
+            .nbh {
+                transition-property: all;
+                transition-duration: 0.4s;
+                transform: translateY(10px);
+                &:hover{
+                    transform: scale(1.13);
+                }
+            }
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: #023047;
+}
+*::selection {
+  background-color: #023047;
+}
+
+section {
+  font-family: "Montserrat", sans-serif;
+  background-color: #219EBC;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+section h1 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 6px;
+  padding-top: 20px;
+}
+section h2 {
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  padding-top: 10px;
+}
+section p {
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  padding-top: 6px;
+}
+section h5 {
+  letter-spacing: 2px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.card-prod {
+  background-color: #8ECAE6;
+  margin: 40px;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transform: translateY(20px);
+}
+.card-prod:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card-prod .color-boton, .card-prod .btn-primary {
+  color: white;
+  background-color: #219EBC;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  background-color: #219EBC;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+main img {
+  width: 100%;
+}
+
+.contenedor {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  padding: 10px;
+  grid-template-areas: "ush    lari    cata    santa" "rosa   lapa    sanjua  rioga" "bsas   babla   trel    mendo";
+}
+
+.ush {
+  grid-area: ush;
+}
+
+.lari {
+  grid-area: lari;
+}
+
+.cata {
+  grid-area: cata;
+}
+
+.santa {
+  grid-area: santa;
+}
+
+.rosa {
+  grid-area: rosa;
+}
+
+.lapa {
+  grid-area: lapa;
+}
+
+.sanjua {
+  grid-area: sanjua;
+}
+
+.rioga {
+  grid-area: rioga;
+}
+
+.bsas {
+  grid-area: bsas;
+}
+
+.babla {
+  grid-area: babla;
+}
+
+.trel {
+  grid-area: trel;
+}
+
+.mendo {
+  grid-area: mendo;
+}
+
+.distri, .card-prod {
+  background-color: #8ECAE6;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 786px) {
+  .contenedor {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "ush     lari    cata" "santa   rosa    lapa" "sanjua  rioga   bsas" "babla   trel    mendo";
+  }
+}
+@media screen and (max-width: 576px) {
+  .contenedor {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "ush     lari" "cata    santa" "rosa    lapa" "sanjua  rioga" "babla   bsas" "trel    mendo";
+  }
+}
+footer {
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #023047;
+}
+footer .trino {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 4px;
+}
+footer .footer-text {
+  font-size: 15px;
+  color: #8ECAE6;
+  text-decoration: none;
+}
+footer .subtitulo {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 4px;
+}
+
+header {
+  background-color: #FB8500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+header nav a img {
+  border-style: double;
+  border-width: 8px;
+  border-radius: 160px;
+  width: 150px;
+}
+header nav ul li {
+  text-transform: uppercase;
+}
+header nav ul li .tnavbar-color {
+  color: white;
+  letter-spacing: 2px;
+}
+header nav ul .nbh {
+  transition-property: all;
+  transition-duration: 0.4s;
+  transform: translateY(10px);
+}
+header nav ul .nbh:hover {
+  transform: scale(1.13);
+}
+
+.distri:hover, .card-prod:hover {
+  background-color: #FFB703;
+}
+
+.color-boton, .btn-primary {
+  color: white;
+}
+.color-boton:hover, .btn-primary:hover {
+  background-color: #023047;
+}/*# sourceMappingURL=style.css.map */

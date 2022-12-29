@@ -1,0 +1,15 @@
+.card-prod {
+    background-color: $bg2;
+    margin: 40px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transform: translateY(20px);
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .color-boton {
+        color: $fontColor;
+        background-color: $mainColor;
+    }
+}
