@@ -140,9 +140,9 @@ main img {
 }
 @media screen and (max-width: 576px) {
   .contenedor {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "ush     lari" "cata    santa" "rosa    lapa" "sanjua  rioga" "babla   bsas" "trel    mendo";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: "ush" "lari" "cata" "santa" "rosa" "lapa" "sanjua" "rioga" "babla" "bsas" "trel" "mendo";
   }
 }
 footer {
